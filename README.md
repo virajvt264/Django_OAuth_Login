@@ -6,7 +6,7 @@ A Django-based authentication system that enables users to securely log in using
 
 ## 🚀 Features
 
-- 🔐 OAuth login (Google, GitHub, and more)
+- 🔐 OAuth login (Google)
 - 🧩 Seamless `django-allauth` integration
 - 🔄 Automatic redirects after login/logout
 - 🔒 Secure user session handling
