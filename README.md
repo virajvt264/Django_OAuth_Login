@@ -18,3 +18,45 @@ A Django-based authentication system that allows users to log in using OAuth pro
 - Django Allauth
 - OAuth (Google/GitHub)
 - HTML/CSS (for templates)
+
+Create a virtual environment and activate it:
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+Install dependencies:
+pip install -r requirements.txt
+
+Set up environment variables (e.g., in .env or settings.py):
+
+Add your Google client ID and secret.
+
+OAuth Configuration (Example: Google)
+Go to Google Cloud Console
+
+Create a project and set up OAuth consent
+
+Generate OAuth credentials
+
+Add the credentials in settings.py under SOCIALACCOUNT_PROVIDERS
+
+📁 Project Structure
+Copy
+├───oauth
+│   └───__pycache__
+└───users
+    ├───migrations
+    │   └───__pycache__
+    ├───templates
+    │   ├───socialaccount
+    │   │   └───snippets
+    │   └───users
+    └───__pycache__
+
+
+🙋‍♂️ Author
+Viraj Tukarul
+
+GitHub: @virajvt264
+
+LinkedIn: https://www.linkedin.com/in/viraj-thukrul/
+
