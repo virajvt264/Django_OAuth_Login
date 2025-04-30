@@ -39,20 +39,6 @@ Generate OAuth credentials
 
 Add the credentials in settings.py under SOCIALACCOUNT_PROVIDERS
 
-📁 Project Structure
-Copy
-├───oauth
-│   └───__pycache__
-└───users
-    ├───migrations
-    │   └───__pycache__
-    ├───templates
-    │   ├───socialaccount
-    │   │   └───snippets
-    │   └───users
-    └───__pycache__
-
-
 🙋‍♂️ Author
 Viraj Tukarul
 
